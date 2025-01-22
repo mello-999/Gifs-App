@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // import { AppRoutingModule } from './app-routing.module';
 import { GifsModule } from './gifs/gifs.module';
-import { SahredModule } from './sahred/sahred.module';
+import { SahredModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
 
