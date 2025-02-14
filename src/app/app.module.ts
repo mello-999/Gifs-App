@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 // import { AppRoutingModule } from './app-routing.module';
 import { GifsModule } from './gifs/gifs.module';
-import { SahredModule } from './shared/shared.module';
+import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
 
@@ -17,7 +17,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     HttpClientModule,
     GifsModule,
-    SahredModule
+    SharedModule,
     // AppRoutingModule,
   ],
   providers: [],
